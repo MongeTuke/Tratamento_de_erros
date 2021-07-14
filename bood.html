@@ -5,7 +5,6 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -15,49 +14,27 @@
 
 <body>
     <div class="container">
-
         <h1>Descobrindo números em um intervalo</h1>
-
         <h5>Escolhe números entre 10 e 20.</h3>
-
         <div class="row">
-
             <div class="col">
-
                 <p class="h6"> </p>
-
                 <div class="input-group mb-3">
-
                     <input type="text" id="numero" class="form-control"
-
                         placeholder="Informe um número maior que 10 e menor que 20:" aria-label="Recipient's username"
-
                         aria-describedby="basic-addon2">
-
                     <div class="input-group-append">
-
                         <button onclick="verificar()" class="btn btn-outline-secondary" type="button">Verificar</button>
-
                     </div>
-
                 </div>
-
                 <div>
-
                     <p id="msg" class="h6"></p>
-
                 </div>
-
                 <div>
-
                     <p id="conclusao" class="h6"></p>
-
                 </div>
-
             </div>
-
         </div>
-
     </div>
 
     <script language="javascript">
@@ -66,7 +43,6 @@
             var valor_input = input.value;
             var mensagem = document.getElementById('msg');
             var mensagem_pai = mensagem.parentElement;
-
 
             try {
                 if (valor_input == '') { throw 'Informe um valor.' }
@@ -106,5 +82,4 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
 </body>
-
 </html>
